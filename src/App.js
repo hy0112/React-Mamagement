@@ -7,8 +7,8 @@ import TableHead from '@mui/material/TableHead';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
 import TableRow from '@mui/material/TableRow';
-import {withStyles} from '@mui/material/styles';
 
+/*
 const styles = theme => ({
     root: {
       width:'100%', 
@@ -19,7 +19,7 @@ const styles = theme => ({
       minWidth: 1000
     }
   })
-
+*/
 
 const customers= 
 [
@@ -74,4 +74,4 @@ class App extends Component {
       )
   }
 } 
-export default withStyles(styles)(App);
+export default App;
